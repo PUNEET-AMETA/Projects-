@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ShareStream - Share Streaming Subscriptions</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <div class="container">
+      <h1>ShareStream</h1>
+      <nav>
+        <ul>
+          <li><a href="#about">About</a></li>
+          <li><a href="#services">Services</a></li>
+          <li><a href="#signup">Sign Up</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <section id="hero">
+    <div class="container">
+      <h2>Split the Cost, Share the Joy</h2>
+      <p>Find people to share your streaming service subscriptions securely.</p>
+      <a href="#signup" class="btn">Get Started</a>
+    </div>
+  </section>
+
+  <section id="about">
+    <div class="container">
+      <h2>About ShareStream</h2>
+      <p>
+        ShareStream helps users find others to share the costs of streaming services like Netflix, Prime Video, and Spotify. We ensure secure credential sharing and cost management.
+      </p>
+    </div>
+  </section>
+
+  <section id="services">
+    <div class="container">
+      <h2>Available Services</h2>
+      <ul>
+        <li>Netflix</li>
+        <li>Amazon Prime Video</li>
+        <li>Spotify</li>
+        <li>HBO Max</li>
+        <li>Disney+</li>
+      </ul>
+    </div>
+  </section>
+
+  <section id="signup">
+    <div class="container">
+      <h2>Sign Up</h2>
+      <form id="signupForm">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+
+        <label for="service">Select Service:</label>
+        <select id="service" name="service" required>
+          <option value="netflix">Netflix</option>
+          <option value="prime">Amazon Prime Video</option>
+          <option value="spotify">Spotify</option>
+          <option value="hbo">HBO Max</option>
+          <option value="disney">Disney+</option>
+        </select>
+
+        <button type="submit" class="btn">Sign Up</button>
+      </form>
+    </div>
+  </section>
+
+  <footer>
+    <div class="container">
+      <p>© 2024 ShareStream. All Rights Reserved.</p>
+    </div>
+  </footer>
+  
+  <script src="script.js"></script>
+</body>
+</html>
