@@ -53,16 +53,6 @@ All scanning and detection data are visualized on a real-time **radar-style GUI*
 
 ---
 
-## 📸 Screenshots *(optional)*
-
-<p align="center">
-  <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/55/Radar_animation.gif/440px-Radar_animation.gif" width="300"/>
-  <br/>
-  <em>Radar-style Visualization in Processing</em>
-</p>
-
----
-
 ## 🛠️ Getting Started
 
 ### ✅ Requirements
