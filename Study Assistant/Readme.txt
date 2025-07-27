@@ -1,10 +1,5 @@
 # 🎓 Study Assistant — Smart Productivity Monitor
 
-<img src="https://img.shields.io/badge/Python-3.x-blue?style=flat-square&logo=python" />
-<img src="https://img.shields.io/badge/Raspberry%20Pi-Project-red?style=flat-square&logo=raspberry-pi" />
-<img src="https://img.shields.io/badge/License-MIT-green?style=flat-square" />
-<img src="https://img.shields.io/badge/Status-Completed-brightgreen?style=flat-square" />
-
 > 💡 A Raspberry Pi–powered smart assistant to help students develop **healthier study habits** by minimizing distractions, improving posture, and maintaining hydration—all in real-time!
 
 ---
