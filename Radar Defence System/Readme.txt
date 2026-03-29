@@ -1,42 +1,30 @@
-# 🛡️ Radar Defense & Fire Detection System
+                   Radar Defense Detection System
 
-![Arduino](https://img.shields.io/badge/Arduino-Uno-blue?style=flat-square&logo=arduino)
-![Processing](https://img.shields.io/badge/Processing-GUI-lightgrey?style=flat-square&logo=processing)
-![Status](https://img.shields.io/badge/Status-Working-success?style=flat-square)
-![License](https://img.shields.io/badge/License-MIT-green?style=flat-square)
 
-> 🎯 A real-time radar-based detection system with automated laser targeting and visual feedback. Built using Arduino and Processing.
+ A real-time radar-based detection system with automated laser targeting and visual feedback. Built using Arduino and Processing.
+
+---
+Project Description
+
+The Radar Defense  Detection System uses an ultrasonic sensor mounted on a servo to scan a 180° field of view. Upon detecting an object within a predefined range, the system locks a secondary servo to the angle of detection and fires a laser at the target.
+
+All scanning and detection data are visualized on a real-time radar-style GUI built using the Processing IDE.
 
 ---
 
-## 🔍 Project Description
+ Features
 
-The **Radar Defense & Fire Detection System** uses an ultrasonic sensor mounted on a servo to scan a 180° field of view. Upon detecting an object within a predefined range, the system locks a secondary servo to the angle of detection and fires a laser at the target.
+Ultrasonic Object Scanning  
+Sweep from 0° to 180° with distance tracking at each step.
+Automatically aims and activates a laser when an object is detected.
 
-All scanning and detection data are visualized on a real-time **radar-style GUI** built using the **Processing** IDE.
+Radar Visualization 
+Real-time radar interface using Processing to display object positions.
 
----
+Joystick Manual Mode (Future Concept)
+Switch to manual aiming using a joystick for fine targeting.
 
-## 🚀 Features
-
-- ✨ **Ultrasonic Object Scanning**  
-  Sweep from 0° to 180° with distance tracking at each step.
-
-- 🎯 **Laser Targeting**  
-  Automatically aims and activates a laser when an object is detected.
-
-- 📡 **Radar Visualization**  
-  Real-time radar interface using Processing to display object positions.
-
-- 🕹️ **Joystick Manual Mode (Optional)**  
-  Switch to manual aiming using a joystick for fine targeting.
-
-- 🧩 **Modular Code Structure**  
-  Clean, organized `.h/.cpp` files for better readability and maintainability.
-
----
-
-## 🧰 Technologies Used
+Technologies Used
 
 | Component         | Purpose                                |
 |------------------|----------------------------------------|
@@ -49,13 +37,12 @@ All scanning and detection data are visualized on a real-time **radar-style GUI*
 
 ---
 
-## 🎯 System Workflow
+System Workflow
 
----
 
-## 🛠️ Getting Started
+##  Getting Started
 
-### ✅ Requirements
+## Requirements
 - Arduino IDE
 - Processing IDE
 - Servo motors ×2
@@ -63,7 +50,7 @@ All scanning and detection data are visualized on a real-time **radar-style GUI*
 - Laser module
 - Joystick module (optional)
 
-### 🚦 Upload Arduino Code
+## Upload Arduino Code
 ```bash
 1. Open `main.ino` in Arduino IDE.
 2. Ensure all `.cpp` and `.h` files are in the same folder.
@@ -75,7 +62,7 @@ All scanning and detection data are visualized on a real-time **radar-style GUI*
 3. Run the sketch to start visual radar.
 
 
-📁 AdvancedDefenseSystem/
+📁 DefenseSystem/
 ├── Arduino/
 │   ├── main.ino
 │   ├── RadarScanner.cpp / .h
@@ -85,14 +72,14 @@ All scanning and detection data are visualized on a real-time **radar-style GUI*
     └── radar_visualizer.pde
 
 
-🌱 Future Improvements
-🔔 Add buzzer for audio alerts
+Future Improvements
+Add buzzer for audio alerts
 
-🔌 Bluetooth/Wi-Fi for remote monitoring
+Bluetooth/Wi-Fi for remote monitoring
 
-🎥 ESP32-CAM for visual recognition
+ESP32-CAM for visual recognition
 
-🤖 AI-based object classification
+AI-based object classification
 
-🔋 Battery-powered deployment mode
+Battery-powered deployment mode
 
