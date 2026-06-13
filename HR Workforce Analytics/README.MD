@@ -210,24 +210,19 @@ Custom risk scoring effectively identifies employees requiring retention efforts
 ## 📷 Dashboard Screenshots
 
 ### Executive Overview
-
-![Executive Overview](Screenshots/executive_overview.png)
+![Executive Overview](PowerBi/Screenshots/Executive%20Overview.png)
 
 ### Attrition Analysis
-
-![Attrition Analysis](screenshots/attrition_analysis.png)
+![Attrition Analysis](PowerBi/Screenshots/Attrition%20Analysis.png)
 
 ### Workforce Insights
-
-![Workforce Insights](screenshots/workforce_insights.png)
+![Workforce Insights](PowerBi/Screenshots/Workforce%20Insights.png)
 
 ### Risk Analysis
-
-![Risk Analysis](screenshots/risk_analysis.png)
+![Risk Analysis](PowerBi/Screenshots/Risk%20Analysis.png)
 
 ### Machine Learning Insights
-
-![ML Insights](screenshots/ml_insights.png)
+![Machine Learning Insights](PowerBi/Screenshots/ML%20Insights.png)
 
 ---
 
