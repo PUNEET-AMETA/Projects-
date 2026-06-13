@@ -211,7 +211,7 @@ Custom risk scoring effectively identifies employees requiring retention efforts
 
 ### Executive Overview
 
-![Executive Overview](screenshots/executive_overview.png)
+![Executive Overview](Screenshots/executive_overview.png)
 
 ### Attrition Analysis
 
